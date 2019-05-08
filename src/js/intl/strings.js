@@ -14,7 +14,8 @@ exports.strings = {
     'fr_FR': 'Félicitations, vous avez réussi le dernier niveau !',
     'ru_RU': 'Вау! Вы прошли последний уровень, отлично!',
     'uk': 'Вау! Ти пройшов останній рівень, круто!',
-    'ko': '와우! 마지막 레벨까지 마쳤습니다. 멋지네요!'
+    'ko': '와우! 마지막 레벨까지 마쳤습니다. 멋지네요!',
+    'it': 'Wow! hai finito l\'ultimo livello, grande!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'finish-dialog-next': {
@@ -31,7 +32,8 @@ exports.strings = {
     'fr_FR': 'Voulez-vous passer à *"{nextLevel}"*, le prochain niveau ?',
     'ru_RU': 'Хотите перейти на следующий уровень: *"{nextLevel}"*?',
     'uk': 'Хочеш перейти на наступний рівень -- *"{nextLevel}"*?',
-    'ko': '다음 레벨로 넘어갈까요? 레벨 *"{nextLevel}"*'
+    'ko': '다음 레벨로 넘어갈까요? 레벨 *"{nextLevel}"*',
+    'it': 'Vuoi andare avanti a *"{nextLevel}"*, il prossimo livello?'
   },
   ///////////////////////////////////////////////////////////////////////////
   'finish-dialog-win': {
@@ -48,7 +50,8 @@ exports.strings = {
     'fr_FR': 'Fabuleux ! Votre solution a égalé ou surpassé notre solution.',
     'ru_RU': 'Отлично! Ваше решение соответствует или превосходит наше.',
     'uk': 'Чудово! Твій розв’язок на рівні або кращий від нашого.',
-    'ko': '멋져요! 우리의 해답과 일치하거나 우리보다 좀 더 나은 해답입니다.'
+    'ko': '멋져요! 우리의 해답과 일치하거나 우리보다 좀 더 나은 해답입니다.',
+    'it': 'Benissimo! Hai fatto come o meglio della nostra soluzione.'
   },
   ///////////////////////////////////////////////////////////////////////////
   'finish-dialog-lose': {
@@ -65,7 +68,8 @@ exports.strings = {
     'fr_FR': 'Voyons si vous pouvez descendre à {best} :D',
     'ru_RU': 'Попробуйте, может вы сможете уложиться в {best} : D',
     'uk': 'Спробуй, можливо ти зможеш вкластися в {best} кроків :D',
-    'ko': '{best}회로 줄일 수 있다면 해보세요. :D'
+    'ko': '{best}회로 줄일 수 있다면 해보세요. :D',
+    'it': 'Vedi se puoi ridurle fino a {best} :D'
   },
   ///////////////////////////////////////////////////////////////////////////
   'hg-prune-tree': {
@@ -81,7 +85,8 @@ exports.strings = {
     'de_DE': 'Achtung! Mercurial macht aggressive Garbage Collection und muss daher deinen Baum reduzieren',
     'ru_RU': 'Внимание! Mercurial использует агрессивный сборщик мусора и обрезает ваше дерево',
     'uk': 'Увага! Mercurial агресивно збирає сміття й може обрізати твоє дерево ',
-    'ko': '주의! Mercurial은 공격적으로 가비지 컬렉션을 수행하므로 트리를 정리할 필요가 있습니다.'
+    'ko': '주의! Mercurial은 공격적으로 가비지 컬렉션을 수행하므로 트리를 정리할 필요가 있습니다.',
+    'it': 'Attenzione! Mercurial fa un garbage collection aggressivo, per quindi c\'è bisogno di potare il tuo albero'
   },
   ///////////////////////////////////////////////////////////////////////////
   'hg-a-option': {
@@ -97,7 +102,8 @@ exports.strings = {
     'fr_FR': 'L\'option -A n\'est pas nécessaire pour cette application, simplement commiter',
     'ru_RU': 'Опция -A не требуется для этого приложения, просто сделайте коммит.',
     'uk': 'Опція -A не потрібна для цього застосунку, можна просто комітити!',
-    'ko': '이 앱에선 -A 옵션은 필요 없습니다. 그냥 커밋하세요!'
+    'ko': '이 앱에선 -A 옵션은 필요 없습니다. 그냥 커밋하세요!',
+    'it': 'L\'opzione -A non è necessaria per questa applicazione, fai semplicemente un commit!',
   },
   ///////////////////////////////////////////////////////////////////////////
   'hg-error-no-status': {
@@ -113,7 +119,8 @@ exports.strings = {
     'de_DE': 'Es gibt keinen Befehl status in dieser Anwendung, da es kein Staging von Dateien gibt. Probier stattdessen hg summary',
     'ru_RU': 'Команда status не поддерживается в этом приложении, так как здесь нет файлов. Попробуйте выполнить hg summary',
     'uk': 'Команда status не підтримується в цьому застосунку, так як немає стейджингу(staging) файлів. Натомість спробуй hg summary ',
-    'ko': '이 앱을 위한 상태 명령어는 없습니다. 왜냐하면 파일들의 스테이징이 없기 때문입니다. 대신 hg summary를 시도해보세요.'
+    'ko': '이 앱을 위한 상태 명령어는 없습니다. 왜냐하면 파일들의 스테이징이 없기 때문입니다. 대신 hg summary를 시도해보세요.',
+    'it': 'Non c\'è un comando status per questa applicazione siccome non ci sono file da indicizzare. Prova invece hg summary'
   },
   ///////////////////////////////////////////////////////////////////////////
   'hg-error-need-option': {
@@ -129,7 +136,8 @@ exports.strings = {
     'de_DE': 'Ich benötige die Option {option} für diesen Befehl!',
     'ru_RU': 'Для этой команды требуется опция {option}',
     'uk': 'Для цієї команди потрібна опція {option}',
-    'ko': '나는 그 명령어를 위한 {option} 옵션이 필요합니다.'
+    'ko': '나는 그 명령어를 위한 {option} 옵션이 필요합니다.',
+    'it': 'Mi serve l\'opzione {option} per quel comando!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'hg-error-log-no-follow': {
@@ -145,7 +153,8 @@ exports.strings = {
     'de_DE': 'hg log ohne -f wird aktuell nicht unterstützt, benutze bitte -f',
     'ru_RU': 'hg log без опции -f в настоящий момент не поддерживается, используйте -f',
     'uk': 'hg log без опції -f в данний момент не підтримується, використовуй -f',
-    'ko': '-f가 없는 hg log는 현재 지원되지 않습니다. -f를 사용하세요.'
+    'ko': '-f가 없는 hg log는 현재 지원되지 않습니다. -f를 사용하세요.',
+    'it': 'hg log senza -f attualmente non è supportato, usa -f'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-status-detached': {
@@ -161,7 +170,8 @@ exports.strings = {
     'fr_FR': 'head détaché !',
     'ru_RU': 'Отделенный HEAD',
     'uk': 'Відокремлений HEAD',
-    'ko': '분리된 HEAD!'
+    'ko': '분리된 HEAD!',
+    'it': 'Detached head!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-status-onbranch': {
@@ -177,7 +187,8 @@ exports.strings = {
     'fr_FR': 'Sur la branche {branch}',
     'ru_RU': 'В ветке {branch}',
     'uk': 'В гілці {branch}',
-    'ko': '분기 지점 {branch}에서'
+    'ko': '분기 지점 {branch}에서',
+    'it': 'Sul ramo {branch}'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-status-readytocommit': {
@@ -193,7 +204,8 @@ exports.strings = {
     'fr_FR': 'Prêt à commit ! (comme toujours dans cette démo)',
     'ru_RU': 'Готово к коммиту! (как и всегда в этом демо)',
     'uk': 'Готово до коміту! (як завжди в цьому демо)',
-    'ko': '커밋을 준비하세요! (이 데모에서는 항상)'
+    'ko': '커밋을 준비하세요! (이 데모에서는 항상)',
+    'it': 'Pronti per il commit! (come sempre in questo demo)'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-dummy-msg': {
@@ -210,7 +222,8 @@ exports.strings = {
     'fr_FR': 'Commit rapide. NoMaN Sux!',
     'ru_RU': 'Быстрый коммит. А надо!',
     'uk': 'Швидкий коміт. Динамо!',
-    'ko': '빨리 커밋하세요!'
+    'ko': '빨리 커밋하세요!',
+    'it': 'Commit veloce. E vai!'
   },
   'git-error-origin-fetch-uptodate': {
     '__desc__': 'One of the error messages for git',
@@ -225,7 +238,8 @@ exports.strings = {
     'zh_CN': '已经是最新的了',
     'ru_RU': 'Уже обновлено!',
     'uk': 'Вже оновлено!',
-    'ko': '이미 최신 상태입니다!'
+    'ko': '이미 최신 상태입니다!',
+    'it': 'Già aggiornato!'
   },
   'git-error-origin-fetch-no-ff': {
     '__desc__': 'One of the error messages for git',
@@ -240,7 +254,8 @@ exports.strings = {
     'fr_FR': 'Votre branche origin n\'est plus synchronisée avec la branche distante et fetch ne peut pas être appliqué. Essayez avec l\'option --force',
     'ru_RU': 'Ваша origin ветка не синхронизирована с удаленной веткой, невозможно выполнить fetch',
     'uk': 'Твоя гілка origin не синхронізована з віддаленою гілкою, неможливо виконати fetch',
-    'ko': '당신의 오리진 브랜치가 원격 브랜치와 동기화되지 않았고, 패치를 실행할 수 없습니다.'
+    'ko': '당신의 오리진 브랜치가 원격 브랜치와 동기화되지 않았고, 패치를 실행할 수 없습니다.',
+    'it': 'Il tuo ramo origin è fuori sincrono con il ramo remoto e il fetch non può essere eseguito'
   },
   'git-error-origin-push-no-ff': {
     '__desc__': 'One of the error messages for git',
@@ -255,7 +270,8 @@ exports.strings = {
     'fr_FR': 'Le dépôt distant a divergé de votre référentiel local, donc l\'envoi de vos modifications n\'est pas en simple avance rapide (et donc votre envoi a été rejeté). Veuillez récupérer les nouveaux changements depuis le dépôt distant, les intégrer dans cette branche, et essayez à nouveau. Vous pouvez le faire avec git pull ou git pull --rebase',
     'ru_RU': 'Удаленный репозиторий разошелся с вашим локальным репозиторием, поэтому выгрузка ваших изменений не может быть в режиме fast forward (и следовательно ваш push будет отклонён). Пожалуйста, удалите изменения в удаленном репозитории которые, объедините их в эту ветку и попробуйте еще раз. Вы можете сделать это с помощью git pull или git pull --rebase',
     'uk': 'Віддалений репозиторій розбігся з твоїм локальним репозиторієм, тому відвантаження твоїх змін не є простим fast forward (і тому твій push був відхилений). Будь-ласка, витягни зміни з віддаленого репозиторію, включи їх в цю гілку, й спробуй ще. Ти можеш зробити це за допомогою git pull чи git pull --rebase',
-    'ko': '원격 레포지토리가 당신의 로컬 레포지토리에서 분기하므로, 변경 사항을 업데이트 하는것은 간단한 fast forward가 아닙니다(따라서 push가 거절될 것입니다.). 원격 레포지토리에서의 변경 사항을 내려 받아 이 브랜치에 합쳐라. 그리고 이걸 반복하라. 당신은 git pull 또는 git pull --rebase를 사용해 이를 수행할 수 있다.'
+    'ko': '원격 레포지토리가 당신의 로컬 레포지토리에서 분기하므로, 변경 사항을 업데이트 하는것은 간단한 fast forward가 아닙니다(따라서 push가 거절될 것입니다.). 원격 레포지토리에서의 변경 사항을 내려 받아 이 브랜치에 합쳐라. 그리고 이걸 반복하라. 당신은 git pull 또는 git pull --rebase를 사용해 이를 수행할 수 있다.',
+    'it': 'Il repository remoto diverge dal tuo repository locale, così caricare i tuoi cambiamenti non è un semplice fast forward (e così il tuo push è stato rifiutato). Per favore fai un pull dei cambiamenti del repository remoto, incorporali in questo ramo e prova ancora. Puoi farlo usando git pull o git pull --rebase'
   },
   'git-error-remote-branch': {
     '__desc__': 'One of the error messages for git',
@@ -270,7 +286,8 @@ exports.strings = {
     'fr_FR': 'Vous ne pouvez exécuter cette commande sur une branche distante',
     'ru_RU': 'Вы не можете выполнить эту команду на удаленной ветке',
     'uk': 'Ти не можеш виконати цю команду на віддаленій гілці',
-    'ko': '당신은 원격 브랜치에서 그 명령어를 실행시킬 수 없다.'
+    'ko': '당신은 원격 브랜치에서 그 명령어를 실행시킬 수 없다.',
+    'it': 'Non puoi eseguire quel comando su un ramo remoto'
   },
   'git-error-origin-required': {
     '__desc__': 'One of the error messages for git',
@@ -285,7 +302,8 @@ exports.strings = {
     'fr_FR': 'Une origine est requise pour cette commande',
     'ru_RU': 'Origin требуется для этой команды',
     'uk': 'Для цієї команди потрібний origin',
-    'ko': '그 명령어를 위한 오리진이 필요하다.'
+    'ko': '그 명령어를 위한 오리진이 필요하다.',
+    'it': 'È necessario fornire una origine per questo comando'
   },
   'git-error-origin-exists': {
     '__desc__': 'One of the error messages for git',
@@ -300,7 +318,8 @@ exports.strings = {
     'fr_FR': 'Une origine existe déjà ! Vous ne pouvez pas en créer une nouvelle',
     'ru_RU': 'Origin уже существует! Невозможно создать еще один',
     'uk': 'Origin вже існує! Неможливо створити ще один',
-    'ko': '오리진이 이미 존재합니다! 당신은 새로 만들 수 없습니다.'
+    'ko': '오리진이 이미 존재합니다! 당신은 새로 만들 수 없습니다.',
+    'it': 'Una origine esiste già! Non puoi crearne una nuova'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-error-branch': {
@@ -317,7 +336,8 @@ exports.strings = {
     'fr_FR': 'Vous ne pouvez supprimer la branche master, la branche sur laquelle vous êtes, ou ce qui n\'est pas une branche',
     'ru_RU' : 'Невозможно удалить ветку master, ветку на которой вы сейчас и то что не является веткой',
     'uk': 'Неможливо видалити гілку master, гілку на якій ти зараз знаходишся чи штуки які не є гілкою',
-    'ko': '당신은 마스터 브랜치, 당신이 현재 사용중인 브랜치, 또는 브랜치가 아닌 것들을 삭제할 수 없습니다.'
+    'ko': '당신은 마스터 브랜치, 당신이 현재 사용중인 브랜치, 또는 브랜치가 아닌 것들을 삭제할 수 없습니다.',
+    'it': 'Non puoi cancellare il ramo master, in ramo su cui ti trovi, o oggetti che non sono rami'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-merge-msg': {
@@ -333,7 +353,8 @@ exports.strings = {
     'fr_FR': 'Merge de {target} dans {current}',
     'ru_RU': 'Слияние {target} в {current}',
     'uk': 'Злиття {target} в {current}',
-    'ko': '{target}을 {current}에 병합하세요.'
+    'ko': '{target}을 {current}에 병합하세요.',
+    'it': 'Merge di {target} in {current}'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-error-rebase-none': {
@@ -349,7 +370,8 @@ exports.strings = {
     'fr_FR': 'Aucun commit à rebaser ! C\'est soit un commit de merge, soit des modifications déjà appliquées',
     'ru_RU': 'Нет коммитов для rebase! Все в коммите слияния или изменения уже применены',
     'uk': 'Нема комітів для rebase! Все в коміті злиття (merge commit) чи зміни вже застосовані',
-    'ko': 'rebase를 하기 위한 커밋이 없습니다! 모든 커밋과 변경 사항들의 병합은 이미 적용되었습니다.'
+    'ko': 'rebase를 하기 위한 커밋이 없습니다! 모든 커밋과 변경 사항들의 병합은 이미 적용되었습니다.',
+    'it': 'Nessun commit per fare il rebase! Tutto è un merge commit o i cambiamenti sono già stati applicati'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-result-nothing': {
@@ -365,7 +387,8 @@ exports.strings = {
     'fr_FR': 'Rien à effectuer…',
     'ru_RU': 'Нечего выполнять...',
     'uk': 'Нічого виконувати...',
-    'ko': '할게 없습니다 ...'
+    'ko': '할게 없습니다 ...',
+    'it': 'Niente da fare...'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-result-fastforward': {
@@ -381,7 +404,8 @@ exports.strings = {
     'fr_FR': 'En avance rapide…',
     'ru_RU': 'Выполняю Fast forward...',
     'uk': 'Виконую Fast forward',
-    'ko': 'Fast forward 중입니다...'
+    'ko': 'Fast forward 중입니다...',
+    'it': 'Fast forward...'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-result-uptodate': {
@@ -397,7 +421,8 @@ exports.strings = {
     'fr_FR': 'Branche déjà à jour',
     'ru_RU': 'Ветка уже обновлена',
     'uk': 'Гілку вже оновлено',
-    'ko': '브랜치가 이미 최신 상태입니다.'
+    'ko': '브랜치가 이미 최신 상태입니다.',
+    'it': 'Ramo già aggiornato'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-error-exist': {
@@ -413,7 +438,8 @@ exports.strings = {
     'fr_FR': 'La référence {ref} n\'existe pas ou est inconnue',
     'ru_RU': 'Ссылка {ref} не существует или неизвестна',
     'uk': 'Посилання {ref} не існує чи невідоме',
-    'ko': '{ref} 참조가 존재하지 않거나 알 수 없습니다.'
+    'ko': '{ref} 참조가 존재하지 않거나 알 수 없습니다.',
+    'it': 'Il ref {ref} non esiste o è sconosciuto'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-error-relative-ref': {
@@ -429,7 +455,8 @@ exports.strings = {
     'fr_FR': 'Le commit {commit} n\'a pas de correspondance {match}',
     'ru_RU': 'Коммит {commit} не содержит {match}',
     'uk': 'Коміт {commit} не містить {match}',
-    'ko': '커밋 {commit}은 {match}를 가지고 있지 않습니다.'
+    'ko': '커밋 {commit}은 {match}를 가지고 있지 않습니다.',
+    'it': 'Il commit {commit} non ha un {match}'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-warning-detached': {
@@ -445,7 +472,8 @@ exports.strings = {
     'fr_FR': 'Attention ! HEAD est détaché',
     'ru_RU': 'Внимание! Репозиторий в состоянии detached HEAD, то есть не находится ни на какой ветке!',
     'uk': 'Увага! Репозиторій в стані detached HEAD, тобто не знаходиться в жодній гілці!',
-    'ko': '주의! 분리된 HEAD 상태'
+    'ko': '주의! 분리된 HEAD 상태',
+    'it': 'Attenzione!! HEAD in stato detached'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-warning-add': {
@@ -461,7 +489,8 @@ exports.strings = {
     'fr_FR': 'Aucun besoin d\'ajouter des fichiers dans cette démo',
     'ru_RU': 'Это демо не оперирует файлами',
     'uk': 'Не потрібно додавати файли для цього демо',
-    'ko': '이 데모에서는 파일을 추가할 필요가 없습니다.'
+    'ko': '이 데모에서는 파일을 추가할 필요가 없습니다.',
+    'it': 'Non serve aggiungere file in questo demo'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-error-options': {
@@ -477,7 +506,8 @@ exports.strings = {
     'fr_FR': 'Les options que vous avez spécifiées sont incompatibles ou incorrectes',
     'ru_RU': 'Неправильные опции',
     'uk': 'Опції, які ти ввів, або некорректні або не підтримуються',
-    'ko': '당신이 지정한 그 옵션들은 호환되지 않거나 올바르지 않습니다.'
+    'ko': '당신이 지정한 그 옵션들은 호환되지 않거나 올바르지 않습니다.',
+    'it': 'Le opzioni che hai specificato sono incompatibili o scorretti'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-error-already-exists': {
@@ -493,7 +523,8 @@ exports.strings = {
     'fr_FR': 'Le commit {commit} existe déjà dans votre ensemble de modifications, opération avortée !',
     'ru_RU': 'Коммит {commit} существует, отменяю!',
     'uk': 'Коміт {commit} вже існує в твоєму change set, відміна!',
-    'ko': '커밋 {commit}은 이미 당신의 변경 내역에 존재합니다. 중단!'
+    'ko': '커밋 {commit}은 이미 당신의 변경 내역에 존재합니다. 중단!',
+    'it': 'Il commit {commit} esiste già nelle tue modifiche, operazione abortita!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-error-reset-detached': {
@@ -509,7 +540,8 @@ exports.strings = {
     'fr_FR': 'On ne peut pas effectuer un reset quand HEAD est détaché. Utilisez checkout pour déplacer',
     'ru_RU': 'Это невозможно в режиме detached HEAD! Используйте checkout!',
     'uk': 'Неможливо зробити reset в стані detached head! Використовуй checkout якщо хочеш змінити розташування',
-    'ko': '분리된 HEAD에서 reset할 수 없습니다. 만약 이동시키기를 원한다면 checkout을 사용하세요.'
+    'ko': '분리된 HEAD에서 reset할 수 없습니다. 만약 이동시키기를 원한다면 checkout을 사용하세요.',
+    'it': 'Non puoi fare un reset in modalità detached! Usa checkout se ti vuoi muovere'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-warning-hard': {
@@ -530,7 +562,10 @@ exports.strings = {
     'uk': 'На LearnGitBranching reset по замовчуванню використовує --hard, тому цю опцію ' +
       'можна пропустити, якщо ти втомився її набирати щоразу. Тільки запам’ятай, що по замовчуванню ' +
       'звичайний git reset використовує --mixed',
-    'ko': 'LearnGitBranching에서 reset의 기본 설정은 옵션은 --hard입니다. 우리 레슨에서는 이 옵션을 생략해도 됩니다. 다만 실제 Git의 기본 설정 옵션은 --mixed라는것만 기억하세요.'
+    'ko': 'LearnGitBranching에서 reset의 기본 설정은 옵션은 --hard입니다. 우리 레슨에서는 이 옵션을 생략해도 됩니다. 다만 실제 Git의 기본 설정 옵션은 --mixed라는것만 기억하세요.',
+    'it': 'Il comportamento predefinito per il reset su LearnGitBranching è un --hard, per questo sentiti libero di omettere ' +
+      'questa opzione se sei stanco di scriverlo nelle nostre lezioni. Soltanto ricordati che il comportamento predefinito ' +
+      'in Git attualmente è --mixed.',
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-error-staging': {
@@ -547,7 +582,8 @@ exports.strings = {
     'fr_FR': 'Il n\'y a pas le concept d\'ajouter / mettre en staging, donc cette option ou commande est invalide',
     'ru_RU': 'Это демо не работает с файлами, так что git add не нужен!',
     'uk': 'В цьому демо немає можливості додати файл до робочої копії чи до стейджингу, тому ця опція чи команда некоректна чи не підтримується',
-    'ko': '여기엔 파일을 추가하거나 스테이징한다는 개념이 없습니다. 따라서 그 옵션 또는 명령어는 유효하지 않습니다.'
+    'ko': '여기엔 파일을 추가하거나 스테이징한다는 개념이 없습니다. 따라서 그 옵션 또는 명령어는 유효하지 않습니다.',
+    'en_US': 'Non c\'è il concetto di aggiungere / mettere in staging i file, così questa opzione o comando è invalido!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-revert-msg': {
@@ -563,7 +599,8 @@ exports.strings = {
     'fr_FR': 'Revert {oldCommit}: {oldMsg}',
     'ru_RU': 'Откатываю {oldCommit}: {oldMsg}',
     'uk': 'Повертаю {oldCommit}: {oldMsg}',
-    'ko': '{oldCommit}:{oldMsg}를 복구중입니다.'
+    'ko': '{oldCommit}:{oldMsg}를 복구중입니다.',
+    'it': 'Ripristino {oldCommit}: {oldMsg}'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-error-args-many': {
@@ -579,7 +616,8 @@ exports.strings = {
     'fr_FR': 'J\'attends au plus {upper} argument(s) pour {what}',
     'ru_RU': 'Ожидается максимум {upper} аргумент(ов) для {what}',
     'uk': 'Я очікую максимум {upper} аргумент(ів) для {what}',
-    'ko': '{what}을 위해 최대 {upper}개의 인자를 받습니다.'
+    'ko': '{what}을 위해 최대 {upper}개의 인자를 받습니다.',
+    'it': 'Mi aspetto al più {upper} argomenti per {what}'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-error-args-few': {
@@ -595,7 +633,8 @@ exports.strings = {
     'fr_FR': 'J\'attends au moins {upper} argument(s) pour {what}',
     'ru_RU': 'Ожидается как минимум {lower} аргументов для {what}',
     'uk': 'Я очікую як мінімум {lower} аргумент(ів) для {what}',
-    'ko': '{what}을 위해 최소 {lower}개의 인자를 받습니다.'
+    'ko': '{what}을 위해 최소 {lower}개의 인자를 받습니다.',
+    'it': 'Mi aspetto al meno {upper} argomenti per {what}'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-error-no-general-args': {
@@ -611,7 +650,8 @@ exports.strings = {
     'fr_FR': 'Cette commande n\'accepte aucun argument général',
     'ru_RU': 'Это команда без аргументов',
     'uk': 'Ця команда не приймає загальних аргументів',
-    'ko': '그 명령어는 일반적으로 인자를 받지 않습니다.'
+    'ko': '그 명령어는 일반적으로 인자를 받지 않습니다.',
+    'it': 'Questo comando non accetta parametri generali'
   },
   ///////////////////////////////////////////////////////////////////////////
   'copy-tree-string': {
@@ -627,7 +667,8 @@ exports.strings = {
     'fr_FR': 'Copiez la chaîne d\'arbre ci-dessous',
     'ru_RU': 'Скопируй текст ниже',
     'uk': 'Скопіюй рядок дерева нижче',
-    'ko': '다음 트리 문자열을 복사하세요.'
+    'ko': '다음 트리 문자열을 복사하세요.',
+    'it': 'Copia il codice dell\'albero che segue'
   },
   ///////////////////////////////////////////////////////////////////////////
   'learn-git-branching': {
@@ -644,7 +685,8 @@ exports.strings = {
     'fr_FR': 'Apprenez Git Branching',
     'ru_RU': 'Изучаем ветвление в git',
     'uk': 'Learn Git Branching',
-    'ko': '깃 브랜칭을 배워봅시다.'
+    'ko': '깃 브랜칭을 배워봅시다.',
+    'it': 'Impara il Branching con Git'
   },
   ///////////////////////////////////////////////////////////////////////////
   'select-a-level': {
@@ -660,7 +702,8 @@ exports.strings = {
     'fr_FR': 'Choisissez un niveau',
     'ru_RU': 'Выбери уровень',
     'uk': 'Обери рівень',
-    'ko': '레벨을 선택하세요.'
+    'ko': '레벨을 선택하세요.',
+    'en_US': 'Seleziona un livello'
   },
   ///////////////////////////////////////////////////////////////////////////
   'main-levels-tab': {
@@ -673,7 +716,8 @@ exports.strings = {
     'gl'   : 'Principal',
     'ru_RU': 'Основы',
     'uk'   : 'Основи',
-    'ko': '메인'
+    'ko'   : '메인',
+    'it'   : 'Principale'
   },
   ///////////////////////////////////////////////////////////////////////////
   'remote-levels-tab': {
@@ -686,7 +730,8 @@ exports.strings = {
     'gl'   : 'Remota',
     'ru_RU': 'Удаленные репозитории',
     'uk'   : 'Віддалені репозиторії',
-    'ko'   : '원격'
+    'ko'   : '원격',
+    'it'   : 'Remoto'
   },
   ///////////////////////////////////////////////////////////////////////////
   'branch-name-short': {
@@ -702,7 +747,8 @@ exports.strings = {
     'fr_FR': 'Désolé, nous devons garder les noms de branches courts pour la visualisation. Votre nom de branche a été tronqué à 9 caractères, devenant "{branch}"',
     'ru_RU': 'Для наглядности нам нужно сохранять имена веток короткими. Твоё название сокращено до 9 символов и теперь это "{branch}"',
     'uk': 'Вибач, нам потрібно щоб ім’я гілок було як можна коротше для наглядності. Твоє ім’я гілки було скорочене до 9 літер й тепер це "{branch}"',
-    'ko': '미안하지만, 우리는 시각적으로 더 좋게 보기위해 짧은 브랜치명이 필요합니다. 당신의 브랜치명은 9자리로 잘라 "{branch}"로 만들었습니다.'
+    'ko'   : '미안하지만, 우리는 시각적으로 더 좋게 보기위해 짧은 브랜치명이 필요합니다. 당신의 브랜치명은 9자리로 잘라 "{branch}"로 만들었습니다.',
+    'it'   : 'Desolato, abbiamo bisogno di mantenere i nomi dei rami corti per la visualizzazione. Il nome del tuo ramo è stato troncato a 9 caratteri, risultando in "{branch}"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'bad-branch-name': {
@@ -718,7 +764,8 @@ exports.strings = {
     'fr_FR': 'Ce nom de branche "{branch}" n\'est pas autorisé',
     'ru_RU': 'Название для ветки "{branch}" недопустимо!',
     'uk': 'Назва гілки "{branch}" є недопустимою',
-    'ko': '"{branch}"라는 브랜치명은 사용할 수 없습니다.'
+    'ko'   : '"{branch}"라는 브랜치명은 사용할 수 없습니다.',
+    'it'   : 'Il nome di ramo "{branch}" non è permesso!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'bad-tag-name': {
@@ -734,7 +781,8 @@ exports.strings = {
     'fr_FR': 'Le nom de tag "{tag}" n\'est pas autorisé',
     'ru_RU': 'Название для тега "{tag}" недопустимо!',
     'uk': 'Назва тегу "{tag}" є недопустимою',
-    'ko': '"{tag}"라는 태그명은 사용할 수 없습니다.'
+    'ko'   : '"{tag}"라는 태그명은 사용할 수 없습니다.',
+    'it'   : 'Il nome di tag "{tag}" non è permesso!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'option-not-supported': {
@@ -750,7 +798,8 @@ exports.strings = {
     'fr_FR': 'L\'option "{option}" n\'est pas supportée',
     'ru_RU': 'Опция "{option}" недопустима!',
     'uk': 'Опція "{option}" не підтримується!',
-    'ko': '"{option}"(이)라는 옵션은 지원하지 않습니다.'
+    'ko'   : '"{option}"(이)라는 옵션은 지원하지 않습니다.',
+    'it'   : 'L\'opzione "{option}" non è supportata!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-usage-command': {
@@ -766,7 +815,8 @@ exports.strings = {
     'fr_FR': 'git <commande> [<arguments>]',
     'ru_RU': 'git <команда> [<аргументы>]',
     'uk': 'git <команда> [<аргументи>]',
-    'ko': 'git <명령어> [<인자들>]'
+    'ko'   : 'git <명령어> [<인자들>]',
+    'it'   : 'git <comando> [<argomenti>]'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-supported-commands': {
@@ -782,7 +832,8 @@ exports.strings = {
     'fr_FR': 'Commandes supportées',
     'ru_RU': 'Поддерживаемые команды',
     'uk': 'Допустимі команди',
-    'ko': '지원되는 명령어들:'
+    'ko'   : '지원되는 명령어들:',
+    'it'   : 'Comandi supportati:'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-usage': {
@@ -798,7 +849,8 @@ exports.strings = {
     'fr_FR': 'Utilisation :',
     'ru_RU': 'Использование:',
     'uk': 'Використання:',
-    'ko': '사용법'
+    'ko'   : '사용법',
+    'it'   : 'Uso:'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-version': {
@@ -814,7 +866,8 @@ exports.strings = {
     'fr_FR': 'Git version PCOTTLE.1.0',
     'ru_RU': 'Версия git PCOTTLE.1.0',
     'uk': 'Версія git PCOTTLE.1.0',
-    'ko': 'Git Version PCOTILE.1.0'
+    'ko'   : 'Git Version PCOTILE.1.0',
+    'it'   : 'Git Versione PCOTTLE.1.0'
   },
   ///////////////////////////////////////////////////////////////////////////
   'flip-tree-command': {
@@ -829,7 +882,8 @@ exports.strings = {
     'fr_FR': 'Inversion de l\'arbre...',
     'ru_RU': 'Переворачиваю дерево...',
     'uk': 'Перевертаю дерево...',
-    'ko': '트리 뒤집는중...'
+    'ko'   : '트리 뒤집는중...',
+    'it'   : 'Inversione dell\'albero...'
   },
   ///////////////////////////////////////////////////////////////////////////
   'refresh-tree-command': {
@@ -845,7 +899,8 @@ exports.strings = {
     'fr_FR': 'Actualisation de l\'arbre…',
     'ru_RU': 'Обновляю дерево...',
     'uk': 'Оновлюю дерево...',
-    'ko': '트리 다시 불러오는중...'
+    'ko'   : '트리 다시 불러오는중...',
+    'it'   : 'Aggiornando l\'albero...'
   },
   ///////////////////////////////////////////////////////////////////////////
   'locale-command': {
@@ -861,7 +916,8 @@ exports.strings = {
     'fr_FR': 'Langue changée à {locale}',
     'ru_RU': 'Локаль теперь равна {locale}',
     'uk': 'Локаль тепер дорівнює {locale}',
-    'ko': '로케일이 {locale}로 설정되었습니다.'
+    'ko'   : '로케일이 {locale}로 설정되었습니다.',
+    'it'   : 'Lingua impostata a {locale}'
   },
   ///////////////////////////////////////////////////////////////////////////
   'locale-reset-command': {
@@ -877,7 +933,8 @@ exports.strings = {
     'fr_FR': 'Langue remise par défaut, qui est {locale}',
     'ru_RU': 'Локаль сброшена. Теперь она равна {locale}',
     'uk': 'Локаль скинута. Тепер вона дорівнює {locale}',
-    'ko': '로케일이 {locale}로 초기화 되었습니다.'
+    'ko'   : '로케일이 {locale}로 초기화 되었습니다.',
+    'it'   : 'Lingua resettata al valore predefinito, che è {locale}'
   },
   ///////////////////////////////////////////////////////////////////////////
   'show-command': {
@@ -893,7 +950,8 @@ exports.strings = {
     'fr_FR': 'Merci d\'utiliser une des commandes suivantes pour obtenir plus d\'informations',
     'ru_RU': 'Для получения большей информации используй следующие команды:',
     'uk': 'Щоб отримати більше інформації використовуй наступні команди:',
-    'ko': '더 많은 정보를 위해 다음 명령어들중 하나를 사용하세요.'
+    'ko'   : '더 많은 정보를 위해 다음 명령어들중 하나를 사용하세요.',
+    'it'   : 'Per favore usa uno dei seguenti comandi per avere più informazioni:'
   },
   ///////////////////////////////////////////////////////////////////////////
   'show-all-commands': {
@@ -909,7 +967,8 @@ exports.strings = {
     'fr_FR': 'Ci-dessous est la liste de toutes les commandes disponibles :',
     'ru_RU': 'Вот все поддерживаемуе команды:',
     'uk': 'Ось список всіх можливих команд:',
-    'ko': '여기에 사용 가능한 모든 명령어들의 리스트가 있습니다.'
+    'ko'   : '여기에 사용 가능한 모든 명령어들의 리스트가 있습니다.',
+    'it'   : 'Questo è un elenco dei comandi disponibili:'
   },
   ///////////////////////////////////////////////////////////////////////////
   'cd-command': {
@@ -925,7 +984,8 @@ exports.strings = {
     'fr_FR': 'Répertoire changé à "/directories/dont/matter/in/this/demo" (les répertoires ne servent à rien dans cette démo)',
     'ru_RU': 'Директория изменена на "/директории/не/важны/в/этом/демо"',
     'uk': 'Директорія змінена на "/директорії/не/мають/значення/в/цьому/демо"',
-    'ko': '디렉토리가 "/directories/dont/matter/in/this/demo"로 변경되었습니다.'
+    'ko'   : '디렉토리가 "/directories/dont/matter/in/this/demo"로 변경되었습니다.',
+    'it'   : 'Directory cambiata a "/directories/dont/matter/in/this/demo"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'ls-command': {
@@ -941,7 +1001,8 @@ exports.strings = {
     'fr_FR': 'DontWorryAboutFilesInThisDemo.txt (ne vous préoccupez pas des noms de fichier dans cette démo)',
     'ru_RU': 'НеНадоЗаботитьсяОФайлахВЭтомДемо.txt',
     'uk': 'ЗабийНаФайлиВЦьомуДемо.txt',
-    'ko': 'DontWorryAboutFilesInThisDemo.txt (이_데모에서_파일에_대한_걱정은_하지마세요.txt)'
+    'ko'   : 'DontWorryAboutFilesInThisDemo.txt (이_데모에서_파일에_대한_걱정은_하지마세요.txt)',
+    'it'   : 'NonTiPreoccupareDeiFileInQuestoDemo.txt'
   },
   'mobile-alert': {
     '__desc__': 'When someone comes to the site on a mobile device, they can not input commands so this is a nasty alert to tell them',
@@ -956,7 +1017,8 @@ exports.strings = {
     'fr_FR': 'Impossible de faire apparaître le clavier sur mobile / tablette :( Essayez de passer sur un ordinateur de bureau :D',
     'ru_RU': 'Мобильные не поддерживаются, зайди с компьютера!',
     'uk': 'LGB не підтримує ввід тексту з мобільного, зайди з компьютера! Це цього варте!',
-    'ko': 'LGB는 모바일에서 입력을 받을 수 없습니다. 데스크톱으로 접속하세요! 이것은 가치가 있습니다. :D'
+    'ko'   : 'LGB는 모바일에서 입력을 받을 수 없습니다. 데스크톱으로 접속하세요! 이것은 가치가 있습니다. :D',
+    'it'   : 'LGB non può ricevre input sui dispositivi mobili, visitalo da un desktop! Ne vale la pena :D'
   },
   ///////////////////////////////////////////////////////////////////////////
   'share-tree': {
