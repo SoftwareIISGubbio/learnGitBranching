@@ -1034,7 +1034,8 @@ exports.strings = {
     'fr_FR': 'Partagez cet arbre avec vos amis ! Ils peuvent le charger avec "import tree"',
     'ru_RU': 'Поделись деревом с друзьями! Они могут загрузить его при помощи "import tree"',
     'uk': 'Поділись цим деревом з друзями! Вони зможуть його завантажити за допомогою "import tree"',
-    'ko': '친구들과 이 트리를 공유하세요! 그들은 "import tree"를 사용해 이를 로드할 수 있습니다.'
+    'ko'   : '친구들과 이 트리를 공유하세요! 그들은 "import tree"를 사용해 이를 로드할 수 있습니다.',
+    'it'   : 'Condividi questo albero con gli amici! Possono caricarlo con "import tree"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'paste-json': {
@@ -1050,7 +1051,8 @@ exports.strings = {
     'fr_FR': 'Collez un blob JSON ci-dessous !',
     'ru_RU': 'Вставь JSON ниже!',
     'uk': 'Встав JSON нижче!',
-    'ko': '아래에 JSON blob을 붙여넣으세요.'
+    'ko'   : '아래에 JSON blob을 붙여넣으세요.',
+    'it'   : 'Incolla un blob JSON qui sotto!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'solved-map-reset': {
@@ -1066,7 +1068,8 @@ exports.strings = {
     'fr_FR': 'La carte des niveaux résolus a été effacée, vous repartez de zéro !',
     'ru_RU': 'Всё сброшено! Можно начать с чистого листа!',
     'uk': 'Все скинуте! Можна починати з чистого аркушу!',
-    'ko': '해결된 지도가 초기화 되었습니다. 당신은 깨끗한 상태에서 시작합니다.'
+    'ko'   : '해결된 지도가 초기화 되었습니다. 당신은 깨끗한 상태에서 시작합니다.',
+    'it'   : 'La mappa risolta è stata eliminata, stai iniziando da unpo stato pulito!',
   },
   ///////////////////////////////////////////////////////////////////////////
   'level-cant-exit': {
@@ -1082,7 +1085,8 @@ exports.strings = {
     'fr_FR': 'Vous n\'êtes pas dans un niveau ! Vous êtes dans le mode bac à sable, commencez un niveau avec "levels"',
     'ru_RU': 'Ты не проходишь уровень! Ты в песочнице! Чтобы начать уровень, используй команду "levels"!',
     'uk': 'Ти не в рівні! Ти в пісочниці! Почни рівень з "levels"',
-    'ko': '당신은 샌드박스에 있습니다. "levels"를 사용하여 레벨을 시작하세요.'
+    'ko'   : '당신은 샌드박스에 있습니다. "levels"를 사용하여 레벨을 시작하세요.',
+    'it'   : 'Non sei in un livello! Sei in una, inizia un livello con "levels"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'level-no-id': {
@@ -1098,7 +1102,8 @@ exports.strings = {
     'fr_FR': 'Le niveau dont l\'identifiant est {id} n\'a pas été trouvé ! Ouverture de la vue de sélection des niveaux',
     'ru_RU': 'Уровень с id "{id}" не найден! Открываю выбор уровней',
     'uk': 'Рівень з id "{id}" не знайдений! Відкриваю вибір рівней',
-    'ko': 'id "{id}"에 대한 레벨이 존재하지 않습니다. 레벨 선택 화면을 열어보세요.'
+    'ko'   : 'id "{id}"에 대한 레벨이 존재하지 않습니다. 레벨 선택 화면을 열어보세요.',
+    'it'   : 'Un livello per l\'id "{id}" non è stato trovato! Apertura della vista di selezione del livello...'
   },
   ///////////////////////////////////////////////////////////////////////////
   'undo-stack-empty': {
@@ -1114,7 +1119,8 @@ exports.strings = {
     'fr_FR': 'La pile d\'annulation est vide !',
     'ru_RU': 'Некуда откатывать!',
     'uk': 'Нема куди відкатуватися',
-    'ko': '되돌리기 스택이 비었습니다!'
+    'ko'   : '되돌리기 스택이 비었습니다!',
+    'it'   : 'Lo stack di undo è vuoto!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'already-solved': {
@@ -1130,7 +1136,8 @@ exports.strings = {
     'fr_FR': 'Vous avez déjà résolu ce niveau, essayez d\'autres niveaux avec "levels" ou revenez au bac à sable avec "sandbox"',
     'ru_RU': 'Ты уже прошел этот уровень, попробуй пройти другие при помощи команды "levels" или иди в песочницу "sandbox"',
     'uk': 'Ти вже пройшов цей рівень, спробуй інші рівні з "levels" чи повернись в пісочницю з "sandbox"',
-    'ko': '당신은 이미 이 레벨을 해결했습니다. "levels"를 사용하여 다른 레벨에 도전하거나 "sandbox"를 사용하여 샌드박스로 돌아가세요.'
+    'ko'   : '당신은 이미 이 레벨을 해결했습니다. "levels"를 사용하여 다른 레벨에 도전하거나 "sandbox"를 사용하여 샌드박스로 돌아가세요.',
+    'it'   : 'Hai già risolto questo livello, prova altri livelli con "levels" o ritorna alla sandbox con "sandbox"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'solved-level': {
@@ -1143,7 +1150,8 @@ exports.strings = {
     'gl'   : '¡Resolto!',
     'ru_RU': 'Решено!!\n:D',
     'uk'   : 'Вирішено!!\n:D',
-    'ko'   : '해결 완료!!\n:D'
+    'ko'   : '해결 완료!!\n:D',
+    'it'   : 'Risolto!!\n:D'
   },
   ///////////////////////////////////////////////////////////////////////////
   'command-disabled': {
@@ -1159,7 +1167,8 @@ exports.strings = {
     'fr_FR': 'Cette commande git est désactivée pour ce niveau !',
     'ru_RU': 'На этом уровне нельзя использовать эту команду!',
     'uk': 'На цьому рівні не можна використовувати цю команду!',
-    'ko': '그 Git 명령어는 이 레벨에서 사용할 수 없습니다.'
+    'ko'   : '그 Git 명령어는 이 레벨에서 사용할 수 없습니다.',
+    'it'   : 'Il comando git è disabilitato per questo livello!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'share-json': {
@@ -1175,7 +1184,8 @@ exports.strings = {
     'fr_FR': 'Voici le JSON pour ce niveau ! Partagez-le avec quelqu\'un ou envoyez-le moi sur Github',
     'ru_RU': 'Вот JSON для этого уровня! Поделись им с кем-нибудь или отправь его нам на GitHub',
     'uk': 'Ось JSON для цього рівня! Поділись з кимось чи відправ мені його на Github',
-    'ko': '이 레벨을 위한 JSON 데이터가 있습니다! 이를 다른 사람들과 공유하거나 Github에서 제게 보내보세요.'
+    'ko'   : '이 레벨을 위한 JSON 데이터가 있습니다! 이를 다른 사람들과 공유하거나 Github에서 제게 보내보세요.',
+    'it'   : 'Questo è il JSON per questo livello! Condividilo con qualcuno o inviamelo su Github'
   },
   ///////////////////////////////////////////////////////////////////////////
   'want-start-dialog': {
@@ -1191,7 +1201,8 @@ exports.strings = {
     'fr_FR': 'Vous n\'avez pas spécifié de dialogue de départ, voulez-vous en ajouter un ?',
     'ru_RU': 'Не указано стартово сообщение! Точно продолжаем?',
     'uk': 'Не вказано стартовий діалог, хочеш додати стартовий діалог?',
-    'ko': '당신은 시작 대화창을 지정하지 않았습니다. 추가 하시겠습니까?'
+    'ko'   : '당신은 시작 대화창을 지정하지 않았습니다. 추가 하시겠습니까?',
+    'it'   : 'Non hai specificato un dialogo di inizio, vuoi aggiungerne uno?'
   },
   ///////////////////////////////////////////////////////////////////////////
   'want-hint': {
@@ -1207,7 +1218,8 @@ exports.strings = {
     'fr_FR': 'Vous n\'avez pas spécifié d\'indice, voulez-vous en ajouter un ?',
     'ru_RU': 'Не указана подсказка для уровня! Пренебречь? Вальсируем?',
     'uk': 'Не вказана підказка, хочеш додати підказку?',
-    'ko': '당신은 힌트를 지정하지 않았습니다. 추가 하시겠습니까?'
+    'ko'   : '당신은 힌트를 지정하지 않았습니다. 추가 하시겠습니까?',
+    'it'   : 'Non hai specificato un suggerimento, vuoi aggiungerne uno?'
   },
   ///////////////////////////////////////////////////////////////////////////
   'prompt-hint': {
@@ -1223,7 +1235,8 @@ exports.strings = {
     'fr_FR': 'Entrez l\'indice pour ce niveau, ou laissez-le vide pour ne pas l\'inclure',
     'ru_RU': 'Введи подсказку для уровня, если хочешь.',
     'uk': 'Додай підказку для рівня, якщо хочеш',
-    'ko': '이 레벨을 위한 힌트를 입력하거나 만약 이를 포함시키고 싶지 않을 경우엔 비워두세요.'
+    'ko'   : '이 레벨을 위한 힌트를 입력하거나 만약 이를 포함시키고 싶지 않을 경우엔 비워두세요.',
+    'it'   : 'Inserisci il suggerimento per questo livello, o lascia questo spazio vuoto se non vuoi includerne uno'
   },
   ///////////////////////////////////////////////////////////////////////////
   'prompt-name': {
@@ -1239,7 +1252,8 @@ exports.strings = {
     'fr_FR': 'Entrez le nom pour ce niveau',
     'ru_RU': 'Введи название уровня',
     'uk': 'Введи назву рівня',
-    'ko': '레벨 이름을 입력하세요.'
+    'ko'   : '레벨 이름을 입력하세요.',
+    'it'   : 'Inserisci il nome per questo livello'
   },
   ///////////////////////////////////////////////////////////////////////////
   'solution-empty': {
@@ -1255,7 +1269,8 @@ exports.strings = {
     'fr_FR': 'Votre solution est vide !! Quelque chose ne tourne pas rond',
     'ru_RU': 'Решение не указано! Так не годится!',
     'uk': 'Розв’язок порожній!! Щось не так',
-    'ko': '해답이 비어있습니다. 무언가 잘못되었습니다.'
+    'ko'   : '해답이 비어있습니다. 무언가 잘못되었습니다.',
+    'it'   : 'La tua soluzione è vuota!! Qualcosa non va'
   },
   ///////////////////////////////////////////////////////////////////////////
   'define-start-warning': {
@@ -1271,7 +1286,8 @@ exports.strings = {
     'fr_FR': 'Redéfinition du point de départ… la solution et la cible seront écrasés s\'ils ont déjà été définis',
     'ru_RU': 'Устанавливаю стартовую точку... Решение и итоговое состояние будут стёрты, если они указаны ранее',
     'uk': 'Встановлюю стартову точку... розв’язок та ціль будуть переписані якщо вони були задані раніше',
-    'ko': '시작 지점을 정의하세요... 만약 그것이 먼저 정의된다면 해답과 목표가 덮어씌워질 것입니다.'
+    'ko'   : '시작 지점을 정의하세요... 만약 그것이 먼저 정의된다면 해답과 목표가 덮어씌워질 것입니다.',
+    'it'   : 'Definizione del punto di partenza... soluzione e obiettivo saranno sovrascritti se sono stati definiti in precedenza'
   },
   ///////////////////////////////////////////////////////////////////////////
   'help-vague-level': {
@@ -1287,7 +1303,8 @@ exports.strings = {
     'fr_FR': 'Vous êtes dans un niveau, donc plusieurs formes d\'aide sont disponibles. Merci de sélectionner soit "help level" pour en apprendre plus sur cette leçon, "help general" pour l\'utilisation de Learn GitBranching, ou "objective" pour apprendre comment résoudre le niveau',
     'ru_RU': 'При прохождении уровня доступны несколько видов помощи. Определить что нужно: "help level" чтобы получить информацию об этом уровне, "help general" для того, чтобы узнать о игре в целом или "objective" чтобы узнать что надо сделать в этом уровне.',
     'uk': 'При проходженні рівня доступні декілька різновидів допомоги. Виберіть або "help level" щоб взнати більше про цей рівень, чи "help general" щоб взнати більше про Learn Git Branching, чи "objective" щоб дізнатись більше про проходження цього рівня',
-    'ko': '당신은 한 레벨에 들어가 있고, 여러가지 도움 양식들을 사용할 수 있습니다. 레슨에 대해 더 알고싶을 땐 "help level", LearnGitBranching을 사용하고 싶을 땐 "help general", 또는 레벨을 어떻게 해결해야할지 알고싶을 땐 "objective"를 선택하세요.'
+    'ko'   : '당신은 한 레벨에 들어가 있고, 여러가지 도움 양식들을 사용할 수 있습니다. 레슨에 대해 더 알고싶을 땐 "help level", LearnGitBranching을 사용하고 싶을 땐 "help general", 또는 레벨을 어떻게 해결해야할지 알고싶을 땐 "objective"를 선택하세요.',
+    'it'   : 'Sei in un livello, perciò sono disponibili più forme di aiuto. Per favore scegli "help level" per imparare di più su questa lezione, "help general" per apprendere l\'uso di Learn GitBranching, o "objective" pe rimparare come risolvere il livello.'
   },
   ///////////////////////////////////////////////////////////////////////////
   'help-vague-builder': {
@@ -1303,7 +1320,8 @@ exports.strings = {
     'fr_FR': 'Vous êtes dans l\'éditeur de niveaux, donc plusieurs formes d\'aide sont disponibles. Merci de sélectionner soit "help general" soit "help builder"',
     'ru_RU': 'При создании уровней доступны несколько видов помощи. Выбери между "help general" и "help builder"',
     'uk': 'При створенні рівня доступні декілька різновидів допомоги. Виберіть або "help general", чи "help builder"',
-    'ko': '당신은 한 레벨 생성기에 들어가 있고, 여러가지 도움 양식들을 사용할 수 있습니다. "help general" 또는 "help builder"를 선택해주세요.'
+    'ko'   : '당신은 한 레벨 생성기에 들어가 있고, 여러가지 도움 양식들을 사용할 수 있습니다. "help general" 또는 "help builder"를 선택해주세요.',
+    'it'   : 'Sei nel costruttore di un livello, perciò sono disponibili più forme di aiuto. Per favore scegli "help general" o "help builder"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'show-goal-button': {
@@ -1320,7 +1338,8 @@ exports.strings = {
     'ja'   : 'ゴールを表示',
     'ru_RU': 'Цель уровня',
     'uk': 'Ціль рівня',
-    'ko': '목표 보기'
+    'ko'   : '목표 보기',
+    'it'   : 'Mostra obiettivo'
   },
   ///////////////////////////////////////////////////////////////////////////
   'hide-goal-button': {
@@ -1337,7 +1356,8 @@ exports.strings = {
     'ja'   : 'ゴールを隠す',
     'ru_RU': 'Спрятать цель',
     'uk': 'Сховати ціль',
-    'ko': '목표 숨기기'
+    'ko'   : '목표 숨기기',
+    'it'   : 'Nascondi obiettivo'
   },
   ///////////////////////////////////////////////////////////////////////////
   'objective-button': {
@@ -1350,7 +1370,8 @@ exports.strings = {
     'gl'   : 'Obxectivo',
     'ru_RU': 'Задача',
     'uk': 'Задача',
-    'ko': '목적'
+    'ko'   : '목적',
+    'it'   : 'Istruzioni'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-demonstration-title': {
@@ -1363,7 +1384,8 @@ exports.strings = {
     'gl'   : 'Demostración de Git',
     'ru_RU': 'Git демо',
     'uk'   : 'Git демо',
-    'ko'   : 'Git 데모'
+    'ko'   : 'Git 데모',
+    'it'   : 'Dimostrazione di Git'
   },
   ///////////////////////////////////////////////////////////////////////////
   'goal-to-reach': {
@@ -1380,7 +1402,8 @@ exports.strings = {
     'ja'   : '到達目標',
     'ru_RU': 'Цель уровня',
     'uk': 'Ціль рівня',
-    'ko': '목표'
+    'ko'   : '목표',
+    'it'   : 'Obiettivo da raggiungere'
   },
   ///////////////////////////////////////////////////////////////////////////
   'goal-only-master': {
@@ -1397,7 +1420,8 @@ exports.strings = {
     'ja': '<span class="fwber">Note:</span> masterブランチだけをこのlevelではチェックします。その他のブランチ（以下では、破線で示されています）に関しては、参照のためにあります。また、いつでもこのウィンドウは"hide goal"と打つかクリックで閉じれます',
     'ru_RU': '<span class="fwber">Важно:</span> В этом уровне проверяется только ветка master. Остальные ветки просто для наглядности. Как обычно, можно скрыть это сообщение при помощи "hide goal"',
     'uk': '<span class="fwber">Важливо:</span> В цьому рівні буде перевірятися тільки гілка master. Решта гілок тільки для наглядності (показані пунктиром нижче). Як завжди, можна сховати цей діалог за допомогою "hide goal"',
-    'ko': '<span class="fwber">Note:</span> 이 레벨에선 오직 마스터 브랜치만이 검사될 것입니다.. 다른 브랜치들은 단순히 참고용입니다. (아래에 대시 라벨로 보여집니다.). "hide goal"을 사용하여 언제든지 창을 숨킬 수 있습니다.'
+    'ko'   : '<span class="fwber">Note:</span> 이 레벨에선 오직 마스터 브랜치만이 검사될 것입니다.. 다른 브랜치들은 단순히 참고용입니다. (아래에 대시 라벨로 보여집니다.). "hide goal"을 사용하여 언제든지 창을 숨킬 수 있습니다.',
+    'it'   : '<span class="fwber">Nota:</span> Solo il ramo master verrà controllato in questo livello. The altri rami sono solo per riferimento (mostrati sotto come etichette tratteggiate). Come sempre puoi nascondere questo dialogo con "hide goal"'  
   },
   ///////////////////////////////////////////////////////////////////////////
   'hide-goal': {
@@ -1414,7 +1438,8 @@ exports.strings = {
     'ja'   : 'このウィンドウは"hide goal"と打つかクリックで閉じれます',
     'ru_RU': 'Можно скрыть это окно при помощи "hide goal"',
     'uk': 'Можна сховати це вікно за допомогою "hide goal"',
-    'ko': '"hide goal"을 사용하여 이 창을 숨길 수 있습니다.'
+    'ko'   : '"hide goal"을 사용하여 이 창을 숨길 수 있습니다.',
+    'it'   : 'Puoi nascondere questa finestra con "hide goal"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'hide-start': {
@@ -1431,7 +1456,8 @@ exports.strings = {
     'ja'   : 'このウィンドウは"hide start"かクリックで閉じれます',
     'ru_RU': 'Можно скрыть это окно при помощи "hide start"',
     'uk': 'Можна сховати це вікно за допомогою "hide start"',
-    'ko': '"hide start"를 사용하여 이 창을 숨길 수 있습니다.'
+    'ko'   : '"hide start"를 사용하여 이 창을 숨길 수 있습니다.',
+    'it'   : 'Puoi nascondere questa finestra con "hide start"'
   },
   ///////////////////////////////////////////////////////////////////////////
   'level-builder': {
@@ -1448,7 +1474,8 @@ exports.strings = {
     'ja'   : 'Levelエディタ',
     'ru_RU': 'Редактор уровней',
     'uk': 'Редактор рівнів',
-    'ko': '레벨 생성기'
+    'ko'   : '레벨 생성기',
+    'it'   : 'Costruttore di livello'
   },
   ///////////////////////////////////////////////////////////////////////////
   'no-start-dialog': {
@@ -1465,7 +1492,8 @@ exports.strings = {
     'ja'   : 'このLevelにはスタートダイアログが存在しません',
     'ru_RU': 'Нет стартового сообщение для уровня!',
     'uk': 'Немає початкового діалогу для цього рівня!',
-    'ko': '이 레벨을 위한 시작 대화창이 없습니다.'
+    'ko'   : '이 레벨을 위한 시작 대화창이 없습니다.',
+    'it'   : 'Non c\'è una finestra di avvio da mostrare per questo livello!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'no-hint': {
@@ -1482,7 +1510,8 @@ exports.strings = {
     'ja'   : 'あらら、このLevelでは、残念ながらヒントが存在しません :-/',
     'ru_RU': "Милый мой, хороший, догадайся сам :-/ Подсказка не создана...",
     'uk': 'Хм, схоже для цього рівня немає підказки :-/',
-    'ko': '흠, 이 레벨을 위한 힌트가 없어보이는군요.'
+    'ko'   : '흠, 이 레벨을 위한 힌트가 없어보이는군요.',
+    'it'   : "Hmm, non sembra esserci un suggerimento per questo livello :-/"
   },
   ///////////////////////////////////////////////////////////////////////////
   'error-untranslated-key': {
@@ -1499,7 +1528,8 @@ exports.strings = {
     'ja'   : '{key}の翻訳がまだ存在しません :( GitHubでの、翻訳の協力をお願いします m(_)m',
     'ru_RU': 'Перевода для {key} не создано :( Пожалуйста, предложи перевод на GitHub',
     'uk': 'Немає перекладу для {key} :( Будь-ласка, запропонуй переклад на Github',
-    'ko': '{key}를 위한 번역은 아직 존재하지 않습니다 :( 번역에 참여해주세요!'
+    'ko'   : '{key}를 위한 번역은 아직 존재하지 않습니다 :( 번역에 참여해주세요!',
+    'it'   : 'La traduzione per {key} non esiste ancora :( Per favore aiuta su GitHub o proponi una traduzione!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'error-untranslated': {
@@ -1516,6 +1546,7 @@ exports.strings = {
     'ja'   : 'このダイアログ、またはテキストの翻訳がまだ存在しません :( GitHubでの、翻訳の協力をお願いします m(_)m',
     'ru_RU': 'Для этого сообщения нет перевода :( Пожалуйста, предложи перевод на GitHub',
     'uk': 'Для цього повідомлення ще немає перекладу :( Будь-ласка, запропонуй переклад на Github',
-    'ko': '이 대화창이나 텍스트는 아직 번역되지 않았습니다. :( 번역에 참여해주세요!'
+    'ko'   : '이 대화창이나 텍스트는 아직 번역되지 않았습니다. :( 번역에 참여해주세요!',
+    'it'   : 'Il testo di questo dialogo non è ancora stato tradotto nella tua lingua :( Vai su GitHub per aiutare nella traduzione!'
   }
 };
