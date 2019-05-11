@@ -582,8 +582,8 @@ exports.strings = {
     'fr_FR': 'Il n\'y a pas le concept d\'ajouter / mettre en staging, donc cette option ou commande est invalide',
     'ru_RU': 'Это демо не работает с файлами, так что git add не нужен!',
     'uk': 'В цьому демо немає можливості додати файл до робочої копії чи до стейджингу, тому ця опція чи команда некоректна чи не підтримується',
-    'ko': '여기엔 파일을 추가하거나 스테이징한다는 개념이 없습니다. 따라서 그 옵션 또는 명령어는 유효하지 않습니다.',
-    'en_US': 'Non c\'è il concetto di aggiungere / mettere in staging i file, così questa opzione o comando è invalido!'
+    'ko'   : '여기엔 파일을 추가하거나 스테이징한다는 개념이 없습니다. 따라서 그 옵션 또는 명령어는 유효하지 않습니다.',
+    'it'   : 'Non c\'è il concetto di aggiungere / mettere in staging i file, così questa opzione o comando è invalido!'
   },
   ///////////////////////////////////////////////////////////////////////////
   'git-revert-msg': {
@@ -702,8 +702,8 @@ exports.strings = {
     'fr_FR': 'Choisissez un niveau',
     'ru_RU': 'Выбери уровень',
     'uk': 'Обери рівень',
-    'ko': '레벨을 선택하세요.',
-    'en_US': 'Seleziona un livello'
+    'ko'   : '레벨을 선택하세요.',
+    'it'   : 'Seleziona un livello'
   },
   ///////////////////////////////////////////////////////////////////////////
   'main-levels-tab': {

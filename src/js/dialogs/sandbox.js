@@ -565,19 +565,52 @@ exports.dialog = {
         '## Benvenuti su Learn Git Branching',
         '',
         'Interessato nell\'imparare Git? Bene, sei arrivato nel posto giusto! ',
-        '"Learn Git Branching" is the most visual and interactive way to learn Git ',
-        'on the web; you\'ll be challenged with exciting levels, given step-by-step ',
-        'demonstrations of powerful features, and maybe even have a bit of fun along the way.',
+        '"Learn Git Branching" è la via più visuale e interattiva per imparare Git ',
+        'sul web; sarai sfidato con livelli entusiasmanti, ti verranno date dimostrazioni',
+        ' passo-pass di potenti funzionalità, e magari anche un po\' di divertimento lungo il percorso.',
         '',
-        'After this dialog you\'ll see the variety of levels we have to offer. If you\'re a ',
-        'beginner, just go ahead and start with the first. If you already know some Git basics, ',
-        'try some of our later more challenging levels.',
+        'Dopo questo dialogo vedrai la varietà di livelli che abbiamo da offrire. Se sei un ',
+        'principiante, vai semplicemente avanti iniziando dal primo. Se conosci già alcune nozioni di base su Git, ',
+        'prova alcuni degli ultimi e più difficili.',
         '',
-        'You can see all the commands available with `show commands` at the terminal.',
+        'Puoi vedere tutti i comandi disponibili con `show commands` nel terminale.',
         '',
-        'PS: Want to go straight to a sandbox next time?',
-        'Try out ',
+        'PS: vuoi andare direttamente alla sandbox la prossima volta?',
+        'Prova ',
         '[this special link](https://pcottle.github.io/learnGitBranching/?NODEMO)'
+      ]
+    }
+  }, {
+    type: 'ModalAlert',
+    options: {
+      markdowns: [
+        '## Comandi di Git',
+        '',
+        'Hai una varietà di comandi git in questa sandbox. Questi includono:',
+        '',
+        ' * commit',
+        ' * branch',
+        ' * checkout',
+        ' * cherry-pick',
+        ' * reset',
+        ' * revert',
+        ' * rebase',
+        ' * merge'
+      ]
+    }
+  }, {
+    type: 'ModalAlert',
+    options: {
+      markdowns: [
+        '## Condividi!',
+        '',
+        'Condividi i tuoi alberi con gli amici usando `export tree` e `import tree`',
+        '',
+        'Hai una buona lezione da condividere? Prova a costruire un livello con `build level` o a provare il livello di un amico con `import level`',
+        '',
+        'Per vedere tutti i comandi disponibili prova `show commands`. Ci sono alcune gemme come `undo` e `reset`',
+        '',
+        'Per ora iniziamo con `levels`...'
       ]
     }
   }]
