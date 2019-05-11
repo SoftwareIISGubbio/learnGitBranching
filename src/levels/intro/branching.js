@@ -13,7 +13,8 @@ exports.level = {
     "zh_CN": "Git Branch",
     "zh_TW": "建立 git branch",
     "ru_RU": "Ветвление в Git",
-    "uk": "Розгалуження в Git"
+    "uk": "Розгалуження в Git",
+    "it"   : "Rami in Git"
   },
   "hint": {
     "en_US": "Make a new branch with \"git branch <branch-name>\" and check it out with \"git checkout <branch-name>\"",
@@ -27,7 +28,8 @@ exports.level = {
     "zh_TW": "用 'git branch [ branch 名稱]' 來建立 branch，用 'git checkout [ branch 名稱]' 切換到該 branch",
     "ko": "\"git branch [브랜치명]\"으로 새 브랜치를 만들고, \"git checkout [브랜치명]\"로 그 브랜치로 이동하세요",
     "ru_RU": "Создай новую ветку при помощи \"git branch [name]\" и перейди на неё при помощи \"git checkout [name]\"",
-    "uk": "Створи нову гілку за допомогою \"git branch [ім’я]\" й перейди на неї за допомогою \"git checkout [ім’я]\""
+    "uk": "Створи нову гілку за допомогою \"git branch [ім’я]\" й перейди на неї за допомогою \"git checkout [ім’я]\"",
+    "it"   : "Crea un nuovo ramo con \"git branch <nome-del-ramo>\" e passa a questo con \"git checkout <nome-del-ramo>\""
   },
   "disabledMap": {
     "git revert": true
@@ -969,6 +971,88 @@ exports.level = {
             "markdowns": [
               "Тепер ти готовий до створення гілок. Як тільки це вікно пропаде, ",
               "зроби нову гілку з назвою `bugFix` та перейди на неї."
+            ]
+          }
+        }
+      ]
+    },
+    "it": {
+      "childViews": [
+        {
+          "type": "ModalAlert",
+          "options": {
+            "markdowns": [
+              "## Rami in Git",
+              "",
+              "I rami in Git sono incredibilmente leggeri. Sono semplicemente puntatori ad un commit specifico -- niente di più. Ecco perché molti entusiasti di Git cantano il mantra:",
+              "",
+              "```",
+              "dirama presto e dirama spesso",
+              "```",
+              "",
+              "Siccome non c'è un grande consumo di spazio di archiviazione / memoria facendo molti rami è più facile dividere il lavoro logicamente che avere un ramo molto grande.",
+              "",
+              "Quando inizieremo a combinare rami e commit vedremo come queste caratteristiche si combinano. Per ora però basta che ci ricordiamo che un ramo essenzialmente dice \"Voglio includere il lavoro di questo commit e di tuttii commit genitori.\""
+            ]
+          }
+        },
+        {
+          "type": "GitDemonstrationView",
+          "options": {
+            "beforeMarkdowns": [
+              "Vediamo a cosa assomiglia un ramo in pratica.",
+              "",
+              "Qui creiamo un nuovo ramo chiamato `newImage`"
+            ],
+            "afterMarkdowns": [
+              "Ecco, questo è tutto sulla creazione di rami! Il ramo `newImage` adesso si riferisce al commit `C1`"
+            ],
+            "command": "git branch newImage",
+            "beforeCommand": ""
+          }
+        },
+        {
+          "type": "GitDemonstrationView",
+          "options": {
+            "beforeMarkdowns": [
+              "Proviamo a mettere un po\' di lavoro su questo nuovo ramo. Clicca il pulsante qui sotto"
+            ],
+            "afterMarkdowns": [
+              "Oh no! Il ramo `master` si è mosso ma il ramo `newImage` non l'ha fatto! Questo perché non eravamo \"sul\" nuovo ramo, ecco perché l'aterisco (*) era su `master`"
+            ],
+            "command": "git commit",
+            "beforeCommand": "git branch newImage"
+          }
+        },
+        {
+          "type": "GitDemonstrationView",
+          "options": {
+            "beforeMarkdowns": [
+              "Diciamo a git che ci vogliamo posizionare sul nuovo ramo con",
+              "",
+              "```",
+              "git checkout <nome>",
+              "```",
+              "",
+              "Questo ci pone sul nuovo ramo prima di fare il commit dei nostri cambiamenti"
+            ],
+            "afterMarkdowns": [
+              "Ci siamo! I nostri cambiamenti sono stati registrati sul nuovo ramo"
+            ],
+            "command": "git checkout newImage; git commit",
+            "beforeCommand": "git branch newImage"
+          }
+        },
+        {
+          "type": "ModalAlert",
+          "options": {
+            "markdowns": [
+              "Ok! Sei pronto per creare dei rami. quando questa finestra si chiude ",
+              "fai un nuovo ramo chiamato `bugFix` e passa a questo nuovo ramo.",
+              "",
+              "A proposito, c'è una scorciatoia: se vuoi creare un nuovo ramo ",
+              "AND passare a questo allo stesso tempo puoi semplicemente ",
+              "scrivere `git checkout -b [nomeDelTuoRamo]`."
             ]
           }
         }

@@ -6,6 +6,7 @@ exports.level = {
     "pt_BR": "Introdução aos commits no Git",
     "gl"   : "Introducción ós commits de Git",
     "fr_FR": "Introduction aux commits avec Git",
+    "it"   : "Introduzione ai commit di Git",
     "ja"   : "Gitのコミット",
     'ko': 'Git 커밋 소개',
     'zh_CN': 'Git Commit',
@@ -28,7 +29,8 @@ exports.level = {
     "ja"   : "'git commit'コマンドを2回打てば完成!",
     "ko": "'git commit'이라고 두 번 치세요!",
     "ru_RU": "Попробуй дважды выполнить команду 'git commit' ;)",
-    "uk": "Спробуй двічі виконати команду 'git commit' ;)"
+    "uk": "Спробуй двічі виконати команду 'git commit' ;)",
+    "it"   : "Semplicemente scrivi due volte 'git commit' per finire!"
   },
   "disabledMap": {
     "git revert": true
@@ -543,6 +545,48 @@ exports.level = {
           "options": {
             "markdowns": [
               "Спробуй сам. Після того як це вікно закриється, зроби два коміти, щоб пройти цей рівень."
+            ]
+          }
+        }
+      ]
+    },
+    "it": {
+      "childViews": [
+        {
+          "type": "ModalAlert",
+          "options": {
+            "markdowns": [
+              "## Commit con Git",
+              "Un commit in un repository di git registra una istantanea di tutti i file nella tua cartella. È simile ad un grande copia/incolla, anche meglio!",
+              "",
+              "Git vuole mantenere i commit più leggeri possibile, così non copia ciecamente tutta la cartella ogni volta che fai un commit. Può (quando possibile) compattare un commit come un insieme di cambiamenti, o un \"delta\", da una versione del repository alla successiva.",
+              "",
+              "Git mantiene anche una storia di quando è stato fatto ogni commit. È per questo che molti commit hanno un commit antenato al disopra -- noi mostriamo questo fatto con le frecce nella nostra visualizzazione. Mantenere una storia è una cosa importante per tutti quelli che lavorano nel progetto!",
+              "",
+              "È molto da tenere in considerazione, ma per adesso pensa ai commit come una istantanea del progetto. I commit sono molto leggeri e passare dall'uno all'altro è terribilmente veloce!"
+            ]
+          }
+        },
+        {
+          "type": "GitDemonstrationView",
+          "options": {
+            "beforeMarkdowns": [
+              "Vediamo a cosa assomiglia in pratica. Sulla destra abbiamo una visualizzazione di un (piccolo) repository di git. Finora ci sono due commit finora -- il commit iniziale `C0`, e un commit dopo di quello `C1` che potrebbe avere alcuni cambiamenti significativi.",
+              "",
+              "Premi il tasto qui sotto per fare un nuovo commit"
+            ],
+            "afterMarkdowns": [
+              "Ci siamo! Benissimo. Abbiamo fatto dei cambiamenti al repository e li abbiamo salvati come un commit. Il commit che abbiamo appena creato ha un genitor, `C1`, che è un riferimento per il commit su cui è basato questo che abbiamo creato."
+            ],
+            "command": "git commit",
+            "beforeCommand": ""
+          }
+        },
+        {
+          "type": "ModalAlert",
+          "options": {
+            "markdowns": [
+              "Vai avanti e prova per conto tuo! dopo che questa finestra si chiude fai due commit per completare il livello"
             ]
           }
         }
