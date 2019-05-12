@@ -577,10 +577,10 @@ exports.dialog = {
         '',
         'PS: vuoi andare direttamente alla sandbox la prossima volta?',
         'Prova ',
-        '[this special link](https://pcottle.github.io/learnGitBranching/?NODEMO)'
+        '[questo link speciale](https://pcottle.github.io/learnGitBranching/?NODEMO)'
       ]
     }
-  }, {
+  }/*, {
     type: 'ModalAlert',
     options: {
       markdowns: [
@@ -613,5 +613,5 @@ exports.dialog = {
         'Per ora iniziamo con `levels`...'
       ]
     }
-  }]
+  }*/]
 };

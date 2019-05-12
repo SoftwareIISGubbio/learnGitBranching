@@ -13,7 +13,8 @@ exports.level = {
     "zh_CN": "Git Rebase",
     "zh_TW": "介紹 rebase",
     "ru_RU": "Введение в rebase",
-    "uk": "Знайомство з rebase"
+    "uk": "Знайомство з rebase",
+    "it"   : "Introduzione al rebase"
   },
   "hint": {
     "en_US": "Make sure you commit from bugFix first",
@@ -27,7 +28,8 @@ exports.level = {
     "zh_CN": "先在 bugFix 分支上进行提交",
     "zh_TW": "你要先在 bugFix branch 進行 commit",
     "ru_RU": "Убедись, что сделал коммит в ветке bugFix",
-    "uk": "Впевнись, що зробив коміт в гілці bugFix"
+    "uk": "Впевнись, що зробив коміт в гілці bugFix",
+    "it"   : "Assicurati di aver fatto il commit da bugFix prima"
   },
   "disabledMap": {
     "git revert": true
@@ -830,6 +832,73 @@ exports.level = {
               "* Зачекауть bugFix знову й заребейсь його на master",
               "",
               "Нехай щастить!"
+            ]
+          }
+        }
+      ]
+    },
+    "it": {
+      "childViews": [
+        {
+          "type": "ModalAlert",
+          "options": {
+            "markdowns": [
+              "## Git Rebase",
+              "",
+              "Il secondo modo di combinare il lavoro di due rami è il *rebasing.* L'operazione di rebase essenzialmente prende un insieme di commit, li \"copia\" e li applica da qualche altra parte.",
+              "",
+              "Sebbene possa suonare confuso il vantaggio del rebasing è che può essere usato per creare una sequenza lineare pulita di commit. Il giornale dei log / la storia del repository saranno molto più puliti se viene consentito solo il rebasing.",
+              "",
+              "Vediamolo in azione..."
+            ]
+          }
+        },
+        {
+          "type": "GitDemonstrationView",
+          "options": {
+            "beforeMarkdowns": [
+              "Ancora una volta abbiamo due rami; nota che il ramo bugFix è quello attualmente selezionato (fai caso all'asterisco).",
+              "",
+              "Ci piacerebbe muovere il nostro lavoro dal ramo bugFix direttamente nel lavoro in master. In questa maniera sembrerà come se queste caratteristiche fossero state sviluppate sequenzialmente, quando in realtà sono state sviluppate in parallelo.",
+              "",
+              "Facciamo questo con il comando `git rebase`"
+            ],
+            "afterMarkdowns": [
+              "Eccezionale! Ora il lavoro dal nostro ramo bugFix è direttamente in cima a master e abbiamo una piacevole sequenza lineare di commit.",
+              "",
+              "Nota che il commit C3 esiste ancora da qualche parte (ha un aspetto sbiadito nell'albero), e C3' è la \"copia\" che abbiamo inserito nel master facendo il rebase.",
+              "",
+              "L\'unico problema è che master non è stato aggiornato, facciamolo adesso..."
+            ],
+            "command": "git rebase master",
+            "beforeCommand": "git commit; git checkout -b bugFix C1; git commit"
+          }
+        },
+        {
+          "type": "GitDemonstrationView",
+          "options": {
+            "beforeMarkdowns": [
+              "Ora abbiamo fatto il check out del ramo `master`. Andiamo avanti e facciamo il rebase in `bugFix`..."
+            ],
+            "afterMarkdowns": [
+              "A posto! Siccome `master` era un antenato di `bugFix` git semplicemente sposta avanti nello storico il riferimento del ramo `master`."
+            ],
+            "command": "git rebase bugFix",
+            "beforeCommand": "git commit; git checkout -b bugFix C1; git commit; git rebase master; git checkout master"
+          }
+        },
+        {
+          "type": "ModalAlert",
+          "options": {
+            "markdowns": [
+              "Per completare questo livello fai i seguenti passi:",
+              "",
+              "* Fai il checkout di un nuovo ramo chiamato `bugFix`",
+              "* Fai un commit",
+              "* Ritorna sul master e fai ancora un commit",
+              "* Fai il check out di bugFix ancora e fai il rebase in master",
+              "",
+              "Buona fortuna!"
             ]
           }
         }
